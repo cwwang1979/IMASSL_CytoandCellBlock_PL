@@ -36,9 +36,9 @@ The source code file, configuration file, and models (./IMAN/run/.../checkpoint.
 
 #### 1. Bag-wise foreground extraction
 
-Place the Whole slide images in ./WSI/TCGA
+Place the Whole slide images in ./WSI/
 ```
-./WSI/TCGA/
+./WSI/
 ├── slide_1.svs
 ├── slide_2.svs
 │        ⋮
@@ -86,7 +86,7 @@ python pro_train.py
 python pro_test.py
 ```
 
-Ensure the output files (split folder) followed the directory structure below.
+Ensure the output files (split folder) follow the directory structure below.
 
 ```
 ./csv/label_example/
