@@ -1,5 +1,5 @@
 # Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cytological Smears and Cell Blocks of Pleural Effusion
-In this study, we proposed a deep learning framework, namely Interpretable Multi-stage Attention deep learning Network (IMAN), to predict pleural effusion status using 194 Cytological smears WSIs and 188 cell blocks WSIs from the Biobank of Tri-Service General Hospital, Taipei (TSGH). 
+In this study, we proposed a deep learning framework, namely Interpretable Multi-stage Attention deep learning Network (IMAN), to predict malignancy using 194 cytological smears WSIs and 188 cell blocks WSIs of pleural effusion from the Biobank of Tri-Service General Hospital, Taipei (TSGH). 
 
 
 ## Associated Publications
