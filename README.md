@@ -5,13 +5,11 @@ In this study, we proposed a deep learning framework, namely Interpretable Multi
 ## Associated Publications
 Wang et al. (In submission) Interpretable Multi-stage Attention Network to Predict Cancer Subtype and Molecular Status of Microsatellite Instability, TP53 mutation and Tumor Mutational Burden of Endometrial and Colorectal Cancer
 
-## Datasets
-### Endometrial Cancer
-A tissue microarray (TMA) cohort of patients' paraffin-embedded tissues was retrospectively retrieved from the Department of Pathology at Tri-Service General Hospital, Taipei, Taiwan and the National Defense Medical Center, Taipei, Taiwan. The TMA cohort contained 242 EC tissue cores with various morphological subtypes, including endometrioid carcinoma G1 (n=143), G2 (n=55), G3 (n=14), serous carcinoma (SC, n=11) and clear cell carcinoma (CC, n=19). The EC TMA tasks distribution, including cancer subtype [aggressive (n=44); non-aggressive (n=198)], TP53 prediction [mutation (n=115); wild type (n=127)], MLH1 prediction [loss (n=101); intact (138); NA: MSI data not available (n=3)], MSH2 prediction [loss (n=87); intact (n=151); NA: MSI data not available (n=4)], MSH6 prediction [loss (7); intact (n=182); NA: MSI data not available (n=3)] and PMS2 prediction [loss (120); intact (n=119); NA: MSI data not available (n=3)]. All reasonable requests for academic use of the independent EC TMAs dataset can be addressed to the corresponding authors.
+## Cytological Smears Dataset
+In this study, we collected 194 cytological smear slides from the Department of Pathology at Tri-Service General Hospital, Taipei, Taiwan and the National Defense Medical Center, Taipei, Taiwan. This cohort covers individuals aged 23 to 109 with 80 male and 114 female patients, respectively. The class distribution is presented  positive for malignancy (n=74); negative for malignancy (n=120)]. 
 
-### Colorectal Cancer
-Secondly, we collected 1,945 H\&E-stained pathological slides from 594 colon cancer patients from 25 tissue source sites, including Mucinous Adenocarcinoma of the Colon and Rectum (n=61), Colon Adenocarcinoma (n=378) and Rectal Adenocarcinoma (n=155), were collected from TCGA. These images were extracted from 594 patients diagnosed with CRC, covering individuals aged 31 to 90 and representing over four different races. All TMB status determined by NGS [TMB-H: TMB $\geq 10$ (n=83); TMB-low: TMB $<10$ (n=451); NA: TMB data not available (n=60)]. Where all MSI status determined by NGS [MSI-High: MANTIS score $\geq 0.6$ (n=67); MSI-low: MANTIS score $< 0.6$ (n=490); NA: MSI data not available (n=37)]. 
-
+### Cell Blocks Dataset
+Moreover, we also collected 188 cell blocks slides from the Department of Pathology at Tri-Service General Hospital, Taipei, Taiwan and the National Defense Medical Center, Taipei, Taiwan. This cohort covers individuals aged 23 to 109 with 76 male and 112 female patients, respectively. The class distribution is presented  positive for malignancy (n=70); negative for malignancy (n=118)].
 
 ## Experiment Setup
 
@@ -32,7 +30,7 @@ conda activate iman
 ```
 
 #### Download
-The source code file, configuration file, and models (./IMAN/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/19rGkYAmGu5_-x5h8PMnXK1mqgEqxINak/view) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
+The source code file, configuration file, and models (./IMAN/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/1C_SDPP1oDaiAmmzJsJ30eYIOPt7vmcMe/view?usp=drive_link) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
 
 ## Steps
 
