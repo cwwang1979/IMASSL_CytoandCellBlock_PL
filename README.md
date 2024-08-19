@@ -30,7 +30,7 @@ conda activate iman
 ```
 
 #### Download
-The source code file, configuration file, and models (./IMAN/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/1C_SDPP1oDaiAmmzJsJ30eYIOPt7vmcMe/view?usp=drive_link) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
+The source code file, configuration file, and models (./IMADL_Cyto_CB/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/1C_SDPP1oDaiAmmzJsJ30eYIOPt7vmcMe/view?usp=drive_link) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
 
 ## Steps
 
