@@ -20,13 +20,13 @@ Moreover, we also collected 188 cell blocks slides from the Department of Pathol
 - GPU driver version >= 525.125.06
 - CUDA version >= 12.0
 
-Import the IMAN virtual environment in conda
+Import the IMADL virtual environment in conda
 ```
-conda env create --file=iman.yaml
+conda env create --file=IMADL.yaml
 ```
 then enter the environment:
 ```
-conda activate iman
+conda activate IMADL
 ```
 
 #### Download
@@ -72,7 +72,7 @@ Ensure the csv files contain the following example structure:
   
 #### 2. Divide training, validation and testing set
 
-The format of the label file can refer to `IMAN/csv/label_example/sheet/train.csv` and `IMAN/csv/label_example/sheet/test.csv`:
+The format of the label file can refer to `IMADL/csv/label_example/sheet/train.csv` and `IMADL/csv/label_example/sheet/test.csv`:
 | File Name | Sample Type |
 |--|--|
 | slide_1.svs | pos |
@@ -110,14 +110,14 @@ Ensure the output files (split folder) follow the directory structure below.
 
 #### 3. Training and inference step
 
-#### Train IMAN
+#### Train IMADL
 Adjust the `main.yaml` to set parameters before start training.
 ```
 python main.py
 ```
 
 
-#### Inference IMAN
+#### Inference IMADL
 ```
 python test.py
 ```
