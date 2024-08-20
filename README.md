@@ -5,10 +5,12 @@ In this study, we proposed an interpretable multi-stage attention deep learning 
 ## Associated Publications
 Wang et al. (In submission) Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cytological Smears and Cell Blocks of Pleural Effusion
 
-## Cytological Smears Dataset
+## Datasets
+
+# Cytological Smears Dataset
 In this study, we collected 194 cytological smear slides from the Department of Pathology at Tri-Service General Hospital, Taipei, Taiwan and the National Defense Medical Center, Taipei, Taiwan. This cohort covers individuals aged 23 to 109 with 80 male and 114 female patients, respectively. The class distribution is presented  positive for malignancy (n=74); negative for malignancy (n=120)]. 
 
-### Cell Blocks Dataset
+# Cell Blocks Dataset
 Moreover, we also collected 188 cell blocks slides from the Department of Pathology at Tri-Service General Hospital, Taipei, Taiwan and the National Defense Medical Center, Taipei, Taiwan. This cohort covers individuals aged 23 to 109 with 76 male and 112 female patients, respectively. The class distribution is presented  positive for malignancy (n=70); negative for malignancy (n=118)].
 
 ## Experiment Setup
