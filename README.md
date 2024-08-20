@@ -39,10 +39,10 @@ The source code file, configuration file, and models (./IMADL_Cyto_CB/run/.../ch
 Place the Whole slide images in ./WSI/
 ```
 ./WSI/
-├── slide_1.svs
-├── slide_2.svs
+├── slide_1.ndpi
+├── slide_2.ndpi
 │        ⋮
-└── slide_n.svs
+└── slide_n.ndpi
   
 ```
 
@@ -75,10 +75,10 @@ Ensure the csv files contain the following example structure:
 The format of the label file can refer to `IMADL/csv/label_example/sheet/train.csv` and `IMADL/csv/label_example/sheet/test.csv`:
 | File Name | Sample Type |
 |--|--|
-| slide_1.svs | pos |
-| slide_2.svs |neg  |
+| slide_1.ndpi | pos |
+| slide_2.ndpi |neg  |
 |....|...|
-| slide_n.svs |neg |
+| slide_n.ndpi |neg |
 
 Execute the code in a terminal as follows:
 ```
