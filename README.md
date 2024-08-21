@@ -3,7 +3,7 @@ In this study, we proposed an Interpretable Multi-stage Attention Deep Learning 
 
 
 ## Associated Publications
-Wang et al. (In submission) Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cell Blocks and  Cytological Smears of Pleural Effusion
+Wang et al. (In submission) Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cell Blocks and Cytological Smears of Pleural Effusion
 
 ## Datasets
 
