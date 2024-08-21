@@ -1,9 +1,9 @@
-# Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cytological Smears and Cell Blocks of Pleural Effusion
+# Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cell Blocks and  Cytological Smears of Pleural Effusion
 In this study, we proposed an Interpretable Multi-stage Attention Deep Learning (IMADL) network to predict malignancy in cost-efficient cytological smears and cell blocks of pleural effusion from the Biobank of Tri-Service General Hospital, Taipei (TSGH). 
 
 
 ## Associated Publications
-Wang et al. (In submission) Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cytological Smears and Cell Blocks of Pleural Effusion
+Wang et al. (In submission) Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cell Blocks and  Cytological Smears of Pleural Effusion
 
 ## Datasets
 
