@@ -34,7 +34,7 @@ conda activate IMADL
 ```
 
 #### Download
-The source code file, configuration file, and models (./IMADL_Cytosmears_CB/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/1-z4I5q0mzm-WiN7XDujIUgYhG0f97zhm/view?usp=sharing) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
+The source code file, configuration file, and models (./IMADL_Cytosmears_CB/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/18gCEAipL5eMVRgdainRa69tx5aVTGb8w/view?usp=sharing) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
 
 ## Steps
 
