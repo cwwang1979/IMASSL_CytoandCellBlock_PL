@@ -24,17 +24,17 @@ In this study, we collected 194 cytological smear slides from the Department of 
 - GPU driver version >= 525.125.06
 - CUDA version >= 12.0
 
-Import the IMADL virtual environment in conda
+Import the IMASSL virtual environment in conda
 ```
-conda env create --file=IMADL.yaml
+conda env create --file=IMASSL.yaml
 ```
 then enter the environment:
 ```
-conda activate IMADL
+conda activate IMASSL
 ```
 
 #### Download
-The source code file, configuration file, and models (./IMADL_CB_Cyto/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/1RtQBxRdVIY8CDkdfrFVWWnc_10d8-i_i/view?usp=sharing) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
+The source code file, configuration file, and models (./IMASSL_CB_Cyto/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/1RtQBxRdVIY8CDkdfrFVWWnc_10d8-i_i/view?usp=sharing) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
 
 ## Steps
 
@@ -76,7 +76,7 @@ Ensure the csv files contain the following example structure:
   
 #### 2. Divide training, validation and testing set
 
-The format of the label file can refer to `IMADL/csv/label_example/sheet/train.csv` and `IMADL/csv/label_example/sheet/test.csv`:
+The format of the label file can refer to `IMASSL_Cyto_CB/csv/label_example/sheet/train.csv` and `IMASSL_Cyto_CB/csv/label_example/sheet/test.csv`:
 | File Name | Sample Type |
 |--|--|
 | slide_1.ndpi | pos |
@@ -114,14 +114,14 @@ Ensure the output files (split folder) follow the directory structure below.
 
 #### 3. Training and inference step
 
-#### Train IMADL
+#### Train IMASSL
 Adjust the `main.yaml` to set parameters before start training.
 ```
 python main.py
 ```
 
 
-#### Inference IMADL
+#### Inference IMASSL
 ```
 python test.py
 ```
