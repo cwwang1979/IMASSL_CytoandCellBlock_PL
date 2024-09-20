@@ -1,4 +1,4 @@
-# Interpretable Deep Learning to Predict Malignancy in Cell Blocks and Cytological Smears of Pleural Effusion
+# Interpretable Multi-Scale Deep Learning to Detect Malignancy in Cell Blocks and Cytological Smears of Pleural Effusion
 In this study, we proposed an Interpretable Multi-scale Attention DL with Self-Supervised Learning Feature Encoder (IMA-SSL) network to predict malignancy in cost-efficient cell blocks and cytological smears of pleural effusion from the Biobank of Tri-Service General Hospital, Taipei (TSGH). 
 
 
