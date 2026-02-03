@@ -2,8 +2,9 @@
 In this study, we proposed an Interpretable Multi-scale Attention DL with Self-Supervised Learning Feature Encoder (IMA-SSL) network to predict malignancy in cost-efficient cell blocks and cytological smears of pleural effusion from the Biobank of Tri-Service General Hospital, Taipei (TSGH). 
 
 
-## Associated Publications
-Wang et al. (In submission) Interpretable Multi-stage Attention DL Network to Predict Malignancy in Cell Blocks and Cytological Smears of Pleural Effusion
+## Associated Publications (Please cite the paper if using any part of this research)
+Wang* et al. (2025) Interpretable Multi-Scale Deep Learning to Detect Malignancy in Cell Blocks and Cytological Smears of Pleural Effusion and Identify Aggressive Endometrial Cancer, Medical Image Analysis, 106(103742), 1-18 (JCR 2024: IF=11.8, Q1 4/212 RADIOLOGY, NUCLEAR MEDICINE & MEDICAL IMAGING) 
+[First & *Corresponding author]
 
 ## Datasets
 
