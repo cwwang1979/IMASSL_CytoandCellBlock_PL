@@ -35,7 +35,7 @@ conda activate IMASSL
 ```
 
 #### Download
-The source code file, configuration file, and models (./IMASSL_CB_Cyto/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/12XdKO08Bxq86Zmm4Jo3eMuJ-wduhLXvQ/view?usp=drive_link)) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
+The source code file, configuration file, and models (./IMASSL_CB_Cyto/run/.../checkpoint.pth) can be downloaded from the [zip](https://drive.google.com/file/d/1GTL8D7lYi-w0pjqWgOMpwtDcw_WBdKkm/view?usp=sharing)) file. (For reviewers, the password of the zip file is provided in the "Code Availability" section of the associated manuscript.)
 
 ## Steps
 
